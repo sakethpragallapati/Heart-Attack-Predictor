@@ -14,7 +14,7 @@ app.use(express.json())
 app.post("/predict",(req,res)=>{
     const {Age,Gender,heartRate,SBP,DBP,bloodSugar,ckmg,Troponin} = req.body
     
-    const pythonPath = path.resolve(__dirname, "python_files/venv/Scripts/python.exe");
+    const pythonPath = "python3";
     const python = spawn(pythonPath, ["predict.py"], {
         cwd: path.resolve(__dirname, "python_files")
     });
