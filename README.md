@@ -83,7 +83,7 @@ Two services are deployed:
 ## ✅ Sample Input for Prediction (JSON)
 
 ```
-POST /predict
+POST https://heart-attack-predictor-ozvc.onrender.com/predict
 
 {
   "Age": 21,
