@@ -8,7 +8,9 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "https://heart-attack-predictor-sakethpragallapati.onrender.com"
+}));
 app.use(express.json())
 
 app.post("/predict",(req,res)=>{
