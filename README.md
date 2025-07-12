@@ -20,7 +20,7 @@ We trained a model using a heart disease dataset with features such as:
 - Troponin levels
 
 ### Model Training
-The model is trained using Random Forest via model.py. Preprocessing steps like scaling and label encoding are also applied. The model achieves an accuracy of 98%.
+The model is trained using Random Forest via model.py. Preprocessing steps like scaling and label encoding are also applied. The model achieves an accuracy of 98.1%.
 
 ### Files
 - `model.pkl`: Trained machine learning model.
